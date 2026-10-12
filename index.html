@@ -19,6 +19,107 @@
 	<script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
 	<script src="./assets/maugallery.min.js" defer></script>
 	<script src="./assets/scripts.js" defer></script>
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "LocalBusiness",
+		"name": "Nina Carducci",
+		"image": "https://maxi1993-tech.github.io/nina-carducci/assets/images/webp-x1/nina.webp",
+		"telephone": "+33556677889",
+		"url": "https://maxi1993-tech.github.io/nina-carducci/",
+		"priceRange": "50€ - 400€",
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "68 avenue Alsace-Lorraine",
+			"addressLocality": "Bordeaux",
+			"postalCode": "33200",
+			"addressRegion": "Gironde",
+			"addressCountry": "FR"
+		},
+		"geo": {
+			"@type": "GeoCoordinates",
+			"latitude": 44.846693,
+			"longitude": -0.606563
+		},
+		"contactPoint": {
+			"@type": "ContactPoint",
+			"telephone": "+33556677889",
+			"contactType": "customer service",
+			"hoursAvailable": {
+				"@type": "OpeningHoursSpecification",
+				"dayOfWeek": [
+					"Monday",
+					"Tuesday",
+					"Wednesday",
+					"Thursday",
+					"Friday"
+				],
+				"opens": "10:00",
+				"closes": "19:00"
+			}
+		},
+		"areaServed": [
+			{
+				"@type": "AdministrativeArea",
+				"name": "Bordeaux",
+				"sameAs": "https://fr.wikipedia.org/wiki/Bordeaux"
+			},
+			{
+				"@type": "AdministrativeArea",
+				"name": "Île-de-France",
+				"sameAs": "https://fr.wikipedia.org/wiki/%C3%8Ele-de-France"
+			}
+		],
+		"hasOfferCatalog": {
+			"@type": "OfferCatalog",
+			"name": "Mes services",
+			"itemListElement": [
+				{
+					"@type": "Offer",
+					"itemOffered": {
+						"@type": "Service",
+						"name": "Shooting photo",
+						"description": "Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos. Matériel, déplacement inclus."
+					},
+					"priceSpecification": {
+						"@type": "UnitPriceSpecification",
+						"price": "350.00",
+						"priceCurrency": "EUR",
+						"unitText": "demi-journée"
+					}
+				},
+				{
+					"@type": "Offer",
+					"itemOffered": {
+						"@type": "Service",
+						"name": "Retouches",
+						"description": "Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications. 2 AR par photo."
+					},
+					"priceSpecification": {
+						"@type": "UnitPriceSpecification",
+						"price": "50.00",
+						"priceCurrency": "EUR",
+						"unitText": "photo"
+					}
+				},
+				{
+					"@type": "Offer",
+					"itemOffered": {
+						"@type": "Service",
+						"name": "Album photos",
+						"description": "Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé. Album A4, 30 pages recto/verso."
+					},
+					"priceSpecification": {
+						"@type": "UnitPriceSpecification",
+						"price": "400.00",
+						"priceCurrency": "EUR",
+						"unitText": "album A4"
+					}
+				}
+			]
+		}
+	}
+	</script>
 </head>
 
 <body>
