@@ -80,6 +80,11 @@ body {
 	height: auto;
 }
 
+.carousel-control-next .visually-hidden,
+.carousel-control-prev .visually-hidden {
+	color: #000;
+}
+
 #about-me {
 	flex: 2
 }
