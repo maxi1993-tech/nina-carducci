@@ -320,6 +320,25 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+.footer {
+	display: flex;
+	flex-direction: column;
+}
+
+.address {
+	padding: 20px;
+	margin: 0;
+}
+
+.address .link {
+	color: #000;
+}
+
+.copyright {
+	background-color: #BEB45A;
+	text-align: center;
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex: 2;
@@ -451,5 +470,11 @@ input[type="submit"] {
 
 	.picture {
 		width: 80%;
+	}
+}
+
+@media all and (max-width: 520px) {
+	.address {
+		text-align: center;
 	}
 }
